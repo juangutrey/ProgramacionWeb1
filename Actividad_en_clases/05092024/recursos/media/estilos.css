@@ -1,8 +1,14 @@
+/* Para importar fuentes */
+@font-face {
+    font-family: FuenteMinecraft;
+    src: url(./recursos/fuentes/Minecraft.ttf);
+}
+
 body{
-    background-color: rgb(240, 188, 121);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: FuenteMinecraft, 'Minecraft', Times, serif;
     padding: 5em; 
-    /*  */
+    background: rgb(195,34,34);
+    background: linear-gradient(0deg, rgba(195,34,34,1) 0%, rgba(253,187,45,1) 100%);
 }
 .fondoBlanco{
     background-color: white;
