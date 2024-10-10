@@ -1,0 +1,17 @@
+body{
+
+}
+.centrado{
+ text-align: center;
+ border: 2px solid navy;
+ padding-left: 1px;
+ padding-right: 1px;
+}
+.bg1{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+.bg2{
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(63,253,29,1) 50%, rgba(69,100,252,1) 100%);
+}
