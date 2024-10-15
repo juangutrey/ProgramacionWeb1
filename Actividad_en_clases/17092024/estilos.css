@@ -1,0 +1,9 @@
+/* Para importar fuentes */
+@font-face {
+    font-family: FuenteMinecraft;
+    src: url(./Recursos/fuentes/Minecraft.ttf);
+}
+
+body{
+
+}
