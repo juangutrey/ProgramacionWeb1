@@ -1,0 +1,52 @@
+/*Para el logo*/
+nav ul a {
+  color: #ffffff; 
+  text-decoration: none;
+}
+
+/* Espaciado entre las líneas del texto */
+p {
+  line-height: 2rem; 
+}
+
+/* Color para el botón de tres lineas del menú lateral */
+.sidenav-trigger {
+  color: #ffffff; 
+}
+
+/* Estilo para los bloques de iconos */
+.icon-block {
+  padding: 0 15px; 
+}
+
+/* Ajusta el tamaño de los íconos en los bloques */
+.icon-block .material-icons {
+  font-size: inherit; 
+}
+
+/* Estilo para el pie de página */
+.footer .page-footer {
+  margin: 0; 
+}
+.image-container {
+  text-align: center; /* Centra la imagen */
+  margin: 20px 0; /* Espaciado arriba y abajo */
+}
+
+.image-container img {
+  max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+
+    .input-field input[type="date"] {
+        border: 1px solid #4CAF50; /* Cambia el color del borde */
+        border-radius: 4px; /* Bordes redondeados */
+        padding: 10px; /* Espaciado interno */
+        width: 100%; /* Ancho completo */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    }
+
+    .input-field input[type="date"]:focus {
+        border-color: #66bb6a; /* Color del borde al enfocar */
+        box-shadow: 0 0 5px rgba(102, 187, 106, 0.5); /* Sombra al enfocar */
+    }
