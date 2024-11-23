@@ -20,7 +20,7 @@ $resultado = $conexion->query($buscarMiembro);
 if (mysqli_num_rows($resultado) > 0) {
     echo "<h4 class='center-align red-text'>El miembro ya está registrado.</h4>";
     echo "<div class='center-align'>
-            <a href='../Registro.php' class='btn waves-effect waves-light blue lighten-1'>Nuevo registro</a>
+            <a href='../registro.php' class='btn waves-effect waves-light blue lighten-1'>Nuevo registro</a>
           </div>";
 } else {
     // Insertamos el nuevo miembro con el id_miembro proporcionado por el usuario
@@ -33,8 +33,8 @@ if (mysqli_num_rows($resultado) > 0) {
     if (mysqli_query($conexion, $insertarMiembro)) {
         echo "<h4 class='center-align green-text'>Miembro registrado con éxito.</h4>";
         echo "<div class='center-align'>
-                <a href='../Registro.php' class='btn waves-effect waves-light blue lighten-1'>Registrar otro miembro</a>
-                <a href='../Principal.php' class='btn waves-effect waves-light teal lighten-1'>Ver registros</a>
+                <a href='../registro.php' class='btn waves-effect waves-light blue lighten-1'>Registrar otro miembro</a>
+                <a href='../principal.php' class='btn waves-effect waves-light teal lighten-1'>Ver registros</a>
               </div>";
     } else {
         echo "<h4 class='center-align red-text'>Error al registrar el miembro:</h4>";

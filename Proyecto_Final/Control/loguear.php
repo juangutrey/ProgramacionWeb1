@@ -18,7 +18,7 @@ if (mysqli_num_rows($consulta) > 0) {
     $_SESSION['id_miembro'] = $usuario['id_miembro'];
     $_SESSION['nombre'] = $usuario['nombre'];
 
-    header("location: ../Principal.php");
+    header("location: ../principal.php");
 } else {
     header("location: ../indexError.php");
 }

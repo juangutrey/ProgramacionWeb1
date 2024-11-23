@@ -47,7 +47,7 @@ include "./header.php";
   </div>
 </div>
 <div class="image-container">
-    <img src="./media/img/imagenGimnasio.jpg" alt="Gimnasio" class="responsive-img">
+    <img src="./Media/img/imagenGimnasio.jpg" alt="Gimnasio" class="responsive-img">
 </div>
 <?php
   include "./footer.php"

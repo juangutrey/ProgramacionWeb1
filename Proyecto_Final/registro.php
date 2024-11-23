@@ -61,7 +61,7 @@ if (!isset($_SESSION['id_miembro'])) {
 
     <!-- Boton -->
     <div class="center-align" style="margin-top: 20px;">
-        <a href="Principal.php" class="btn waves-effect waves-light teal lighten-1">Regresar</a>
+        <a href="principal.php" class="btn waves-effect waves-light teal lighten-1">Regresar</a>
     </div>
 </div>
 

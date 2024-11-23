@@ -29,7 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             <div class='card-content center-align'>
                                 <span class='card-title green-text text-darken-2'>¡Éxito!</span>
                                 <p>El usuario ha sido eliminado exitosamente.</p>
-                                <a href='../Principal.php' class='btn waves-effect waves-light green'>Regresar al Principal</a>
+                                <a href='../principal.php' class='btn waves-effect waves-light green'>Regresar al Principal</a>
                             </div>
                         </div>
                     </div>
@@ -42,7 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             <div class='card-content center-align'>
                                 <span class='card-title red-text text-darken-2'>Error</span>
                                 <p>Error al eliminar el usuario: " . htmlspecialchars(mysqli_error($conexion)) . "</p>
-                                <a href='../Principal.php' class='btn waves-effect waves-light red'>Regresar al Principal</a>
+                                <a href='../principal.php' class='btn waves-effect waves-light red'>Regresar al Principal</a>
                             </div>
                         </div>
                     </div>
@@ -56,7 +56,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         <div class='card-content center-align'>
                             <span class='card-title orange-text text-darken-2'>Error</span>
                             <p>La contraseña ingresada es incorrecta.</p>
-                            <a href='../Principal.php' class='btn waves-effect waves-light orange'>Regresar al Principal</a>
+                            <a href='../principal.php' class='btn waves-effect waves-light orange'>Regresar al Principal</a>
                         </div>
                     </div>
                 </div>
@@ -70,7 +70,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <div class='card-content center-align'>
                         <span class='card-title red-text text-darken-2'>Error</span>
                         <p>El número de membresía no existe.</p>
-                        <a href='../Principal.php' class='btn waves-effect waves-light red'>Regresar al Principal</a>
+                        <a href='../principal.php' class='btn waves-effect waves-light red'>Regresar al Principal</a>
                     </div>
                 </div>
             </div>

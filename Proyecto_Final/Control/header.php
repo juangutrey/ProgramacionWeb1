@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>Gimnasio Aragón</title>
   <!-- Favicon -->
-  <link rel="icon" href="./media/favicon/favicon.png" type="image/png"/>
+  <link rel="icon" href="./Media/favicon/favicon.png" type="image/png"/>
 
   <!-- Fuentes y estilos para Materialize -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
